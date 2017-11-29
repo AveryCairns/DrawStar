@@ -36,11 +36,6 @@ namespace DrawStar
             g.DrawLine(pen, (34 + x) * scale, (34 + y) * scale, (44 + x) * scale, (3 + y) * scale);
         }
 
-        private void Form1_Shown(object sender, EventArgs e)
-        {
-            
-        }
-
         private void enterButton_Click(object sender, EventArgs e)
         {
             pen = new Pen(Color.Black);
