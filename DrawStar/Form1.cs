@@ -24,16 +24,16 @@ namespace DrawStar
             Graphics g = this.CreateGraphics();
            float scale = size / 88;
         
-            g.DrawLine(pen, (44 + x) * scale, (3 + y) * scale, (55 + x) * scale, (34 + y) * scale);
-            g.DrawLine(pen, (55 + x) * scale, (34 + y) * scale, (88 + x) * scale, (34 + y) * scale);
-            g.DrawLine(pen, (88 + x) * scale, (34 + y) * scale, (61 + x) * scale, (55 + y) * scale);
-            g.DrawLine(pen, (61 + x) * scale, (55 + y) * scale, (71 + x) * scale, (85 + y) * scale);
-            g.DrawLine(pen, (71 + x) * scale, (85 + y) * scale, (44 + x) * scale, (66 + y) * scale);
-            g.DrawLine(pen, (44 + x) * scale, (66 + y) * scale, (18 + x) * scale, (85 + y) * scale);
-            g.DrawLine(pen, (18 + x) * scale, (85 + y) * scale, (27 + x) * scale, (54 + y) * scale);
-            g.DrawLine(pen, (27 + x) * scale, (54 + y) * scale, (1 + x) * scale, (34 + y) * scale);
-            g.DrawLine(pen, (1 + x) * scale, (34 + y) * scale, (34 + x) * scale, (34 + y) * scale);
-            g.DrawLine(pen, (34 + x) * scale, (34 + y) * scale, (44 + x) * scale, (3 + y) * scale);
+            g.DrawLine(pen, 44 * scale + x, 3 * scale + y, 55 * scale + x, 34 * scale + y);
+            g.DrawLine(pen, 55  * scale + x, 34 * scale + y, 88 * scale + x, 34 * scale + y);
+            g.DrawLine(pen, 88 * scale + x, 34 * scale + y, 61 * scale + x, 55 * scale + y);
+            g.DrawLine(pen, 61 * scale + x, 55 * scale + y, 71 * scale + x, 85 * scale + y);
+            g.DrawLine(pen, 71 * scale + x, 85 * scale + y, 44 * scale + x, 66 * scale + y);
+            g.DrawLine(pen, 44 * scale + x, 66 * scale + y, 18 * scale + x, 85 * scale + y);
+            g.DrawLine(pen, 18 * scale + x, 85 * scale + y, 27 * scale + x, 54 * scale + y);
+            g.DrawLine(pen, 27 * scale + x, 54 * scale + y, 1 * scale + x, 34 * scale + y);
+            g.DrawLine(pen, 1 * scale + x, 34 * scale + y, 34 * scale + x, 34 * scale + y);
+            g.DrawLine(pen, 34 * scale + x, 34 * scale + y, 44 * scale + x, 3 * scale + y);
         }
 
         private void enterButton_Click(object sender, EventArgs e)
